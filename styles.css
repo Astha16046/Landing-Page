@@ -1,0 +1,49 @@
+/* Base styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  background: linear-gradient(45deg, #1e3c72, #2a5298);
+  color: white;
+  z-index: 1000;
+  transition: background 0.3s ease;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+  margin: 0;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+nav ul li a:hover {
+  background: white;
+  color: #1e3c72;
+  border-radius: 5px;
+}
+
+.section {
+  padding: 100px 20px;
+  height: 100vh;
+}
+
+/* Change background color on scroll */
+.scrolled {
+  background: linear-gradient(45deg, #2a5298, #1e3c72);
+}
